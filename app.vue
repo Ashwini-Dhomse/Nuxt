@@ -7,6 +7,7 @@
     </header>
     <NuxtPage />
    </NuxtLayout>
+   <FooterComp />
   </div>
 </template>
 <script setup lang="ts">

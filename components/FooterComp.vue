@@ -3,9 +3,6 @@ const route = useRoute()
 
 const links = [
 [{
-  label : "Sample Website",
-  class : "text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl"
-}],[{
   label: 'Home',
   icon: 'i-heroicons-home',
   to: `/`
@@ -24,10 +21,7 @@ const links = [
   icon: 'i-heroicons-command-line',
   to: '/contact'
 }], [{
-    label: 'Login',
-  }, {
-    label: 'Help',
-    icon: 'i-heroicons-question-mark-circle'
+    label: 'Copyright © 2016-2024 Nuxt ',
   }]
 ]
 </script>
